@@ -1,11 +1,11 @@
-/* 1001 - Extremely Basic */
+#include<iostream>
+using namespace std;
 
-#include <stdio.h>
 int main()
 {
-    int A,B,X;
-    scanf("%d %d", &A, &B);
-    X = A + B;
-    printf("X = %d\n", X);
+    int a,b;
+    cin >> a >> b;
+    int x = a + b;
+    cout << "X = "<< x <<endl; 
     return 0;
 }
